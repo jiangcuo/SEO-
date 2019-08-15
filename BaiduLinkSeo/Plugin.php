@@ -1,12 +1,11 @@
 <?php
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 /**
- * 百度seo插件（<a href="http://">百度seo链接提交插件使用帮助文档</a>）
-  *
+ * 百度seo插件
  * @package BaiduLinkSeo
  * @author dlmg
  * @version 1.0.1
- * @link
+ * @link 
  */
 class BaiduLinkSeo_Plugin implements Typecho_Plugin_Interface
 {
