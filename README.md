@@ -6,7 +6,7 @@
  
  然后在前台主题模版找到index.php，粘贴以下代码:
  
- <?php
+    "<?php
         $arr = array(
             'http://www.programcat.top'
         );
@@ -14,4 +14,4 @@
             array_push($arr,$this->permalink);
         }
         Typecho_Plugin::factory('index.php')->begin($arr);
-    ?>
+    ?>"
